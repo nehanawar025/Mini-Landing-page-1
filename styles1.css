@@ -1,0 +1,74 @@
+.card{
+    width: 600px;
+    height: 400px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.image{
+    text-align: left;
+    width: 300px;
+    border-bottom: 2px rgb(241, 224, 30);
+    border: none;
+    
+}
+
+.writting{
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgb(244, 192, 71);
+}
+
+.highlight{
+    font-size: 40px;
+    line-height: 41px;
+}
+
+.p1{
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.p2{
+    /* margin-bottom: 4px; */
+    font-size: 14px;
+    line-height: 14px;
+}
+.email{
+    margin-top: 15px;
+    width: 224px;
+    height: 24px;
+    font-size: small;
+    padding: 1px 10px;
+    border-radius: 3px;
+    border: none;
+}
+.submit{
+    margin-top: 4px;
+    width: 244px;
+    height: 40px;
+    color: rgb(251, 251, 251);
+    background-color: rgb(8, 8, 8);
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    font-size: small;
+}
+
+.mar-pad{
+    margin: 0;
+    padding: 4px;
+}
+
+::placeholder{
+    color: rgb(165, 165, 165);
+    font-size: 11px;
+}
